@@ -101,11 +101,12 @@ body {
   padding: 1rem;
 }
 .card .visuals-container .huddle-logo {
-  width: 40%;
+  width: 130px;
   padding-bottom: 2rem;
 }
 .card .visuals-container .image-mockup {
-  padding: 2rem 0;
+  width: 100%;
+  padding: 2rem 0 0;
 }
 .card .introductory-section {
   display: flex;
@@ -131,17 +132,61 @@ body {
   margin-top: 1rem;
   border: 1px solid black;
 }
+.card .introductory-section button:hover {
+  background-color: hsl(300deg, 69%, 71%);
+}
 .card .introductory-section .social-media-buttons-container {
-  padding: 4rem 0 0.5rem;
+  padding: 2rem 0 0.5rem;
 }
 .card .introductory-section .social-media-buttons-container a {
   text-decoration: none;
   color: white;
 }
+.card .introductory-section .social-media-buttons-container a:hover {
+  color: hsl(300deg, 69%, 71%);
+}
 .card .introductory-section .social-media-buttons-container .fa-stack {
   font-size: 1rem;
 }
 
+@media only screen and (min-width: 1024px) {
+  html {
+    text-align: left;
+  }
+  body {
+    background-image: url("../images/bg-desktop.svg");
+  }
+  .card {
+    grid-template-columns: 55% 45%;
+  }
+  .card .visuals-container {
+    grid-row: 1;
+  }
+  .card .visuals-container .huddle-logo {
+    width: 200px;
+  }
+  .card .introductory-section {
+    align-items: flex-end;
+    margin-right: 3.5rem;
+  }
+  .card .introductory-section h1 {
+    font-size: 2.5rem;
+    margin-right: 1rem;
+  }
+  .card .introductory-section p {
+    margin-right: 1rem;
+  }
+  .card .introductory-section button {
+    margin-left: 1rem;
+    width: 35%;
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+  .card .introductory-section .social-media-buttons-container {
+    position: absolute;
+    top: 80%;
+  }
+}
 .attribution {
   font-size: 11px;
   text-align: center;

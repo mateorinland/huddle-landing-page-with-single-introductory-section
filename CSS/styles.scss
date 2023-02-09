@@ -31,11 +31,12 @@ body {
     .visuals-container {
         padding: 1rem;
         .huddle-logo {
-            width: 40%;
+            width: 130px;
             padding-bottom: 2rem;
         }
         .image-mockup {
-            padding: 2rem 0;
+            width: 100%;
+            padding: 2rem 0 0;
         }
     }
     .introductory-section {
@@ -61,14 +62,59 @@ body {
             margin-top: 1rem;
             border: 1px solid black;
         }
+        button:hover {
+            background-color: $Soft_Magenta;
+        }
         .social-media-buttons-container {
-            padding: 4rem 0 0.5rem;
+            padding: 2rem 0 0.5rem;
             a {
                 text-decoration: none;
                 color: white;
             }
+            a:hover {
+                color: $Soft_Magenta;
+            }
             .fa-stack {
                 font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    html {
+        text-align: left;
+    }
+    body {
+        background-image: url("../images/bg-desktop.svg");
+    }
+    .card {
+        grid-template-columns: 55% 45%;
+        .visuals-container {
+            grid-row: 1;
+            .huddle-logo {
+                width: 200px;
+            }
+        }
+        .introductory-section {
+            align-items: flex-end;
+            margin-right: 3.5rem;
+            h1 {
+                font-size: 2.5rem;
+                margin-right: 1rem;
+            }
+            p {
+                margin-right: 1rem;
+            }
+            button {
+                margin-left: 1rem;
+                width: 35%;
+                padding: 1rem;
+                font-size: 1.1rem;
+            }
+            .social-media-buttons-container {
+                position: absolute;
+                top: 80%;
             }
         }
     }
