@@ -72,10 +72,80 @@ select {
     scroll-behavior: auto !important;
   }
 }
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+html {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+body {
+  font-size: 16px;
+  background-color: hsl(257deg, 40%, 49%);
+  background-image: url("../images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.card {
+  display: grid;
+}
+.card .visuals-container {
+  padding: 1rem;
+}
+.card .visuals-container .huddle-logo {
+  width: 40%;
+  padding-bottom: 2rem;
+}
+.card .visuals-container .image-mockup {
+  padding: 2rem 0;
+}
+.card .introductory-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card .introductory-section h1 {
+  padding: 2rem 1rem 0.5rem;
+}
+.card .introductory-section p {
+  padding: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.05rem;
+}
+.card .introductory-section button {
+  width: 60%;
+  border-radius: 50px;
+  color: hsl(257deg, 40%, 49%);
+  font-size: 0.85rem;
+  padding: 0.7rem;
+  margin-top: 1rem;
+  border: 1px solid black;
+}
+.card .introductory-section .social-media-buttons-container {
+  padding: 4rem 0 0.5rem;
+}
+.card .introductory-section .social-media-buttons-container a {
+  text-decoration: none;
+  color: white;
+}
+.card .introductory-section .social-media-buttons-container .fa-stack {
+  font-size: 1rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228deg, 45%, 44%);
+  color: hsl(300deg, 69%, 71%);
 }/*# sourceMappingURL=styles.css.map */

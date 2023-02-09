@@ -1,9 +1,83 @@
 @import "_reset";
 
+$Violet: hsl(257, 40%, 49%);
+$Soft_Magenta: hsl(300, 69%, 71%);
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+body {
+    font-size: 16px;
+    background-color: $Violet;
+    background-image: url("../images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.card {
+    display: grid;
+    .visuals-container {
+        padding: 1rem;
+        .huddle-logo {
+            width: 40%;
+            padding-bottom: 2rem;
+        }
+        .image-mockup {
+            padding: 2rem 0;
+        }
+    }
+    .introductory-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h1 {
+            padding: 2rem 1rem 0.5rem;
+        }
+        p {
+            padding: 1rem;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 1.05rem;
+        }
+        button {
+            width: 60%;
+            border-radius: 50px;
+            color: $Violet;
+            font-size: 0.85rem;;
+            padding: 0.7rem;
+            margin-top: 1rem;
+            border: 1px solid black;
+        }
+        .social-media-buttons-container {
+            padding: 4rem 0 0.5rem;
+            a {
+                text-decoration: none;
+                color: white;
+            }
+            .fa-stack {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
     a {
-        color: hsl(228, 45%, 44%);
+        color: $Soft_Magenta;
     }
 }
