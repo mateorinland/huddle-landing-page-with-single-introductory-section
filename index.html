@@ -1,64 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./CSS/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/ea97db254d.js" crossorigin="anonymous"></script>
-  <title>Huddle landing page with single introductory section</title>
-</head>
-<body>
-  <main class="card">
-    <div class="visuals-container">
-      <img
-        class="huddle-logo"
-        src="./images/logo.svg"
-        alt="Huddle logo: a speech bubble next to the word 'Huddle'."
-      >
-      <img
-        class="image-mockup"
-        src="./images/illustration-mockups.svg"
-        alt="Two illustration mockups that showcase the appearance of Huddle's website."
-      >
-    </div>
-    <section class="introductory-section">
-      <div class="registration-text-container">
-        <h1>Build The Community Your Fans Will Love</h1>
-        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-          Create connections with your users as you engage in genuine discussion.</p>
-        <button>Register</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A Frontend Mentor challenge for web development. This one is a landing page for
+      Huddle with a single introductory section and a Register button."
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ea97db254d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Huddle landing page with single introductory section</title>
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="image-container">
+        <img
+          class="huddle-logo"
+          src="./images/logo.svg"
+          alt="Huddle logo: a speech bubble next to the word 'Huddle'."
+        />
+        <img
+          class="mockup-image"
+          src="./images/illustration-mockups.svg"
+          alt="Two illustration mockups that showcase the appearance of Huddle's website."
+        />
       </div>
-      <div class="social-media-buttons-container">
-        <a href="#" aria-label="facebook-icon">
-          <span class="fa-stack fa-2x">
-            <i class="far fa-circle fa-stack-2x"></i>
-            <i class="fab fa-facebook-f fa-stack-1x"></i>
-          </span>
-        </a>
-        <a href="#" aria-label="facebook-icon">
-          <span class="fa-stack fa-2x">
-            <i class="far fa-circle fa-stack-2x"></i>
-            <i class="fab fa-twitter fa-stack-1x"></i>
-          </span>
-        </a>
-        <a href="#" aria-label="facebook-icon">
-          <span class="fa-stack fa-2x">
-            <i class="far fa-circle fa-stack-2x"></i>
-            <i class="fab fa-instagram fa-stack-1x"></i>
-          </span>
-        </a>
+      <div class="info-container">
+        <div class="registration-text-container">
+          <h1 class="title">Build The Community Your Fans Will Love</h1>
+          <p class="info">
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <button class="register-button">Register</button>
+        </div>
+        <div class="social-media-links-container">
+          <a class="social-media-link" href="#" aria-label="facebook-icon">
+            <span class="fa-stack fa-2x">
+              <i class="far fa-circle fa-stack-2x"></i>
+              <i class="fab fa-facebook-f fa-stack-1x"></i>
+            </span>
+          </a>
+          <a class="social-media-link" href="#" aria-label="facebook-icon">
+            <span class="fa-stack fa-2x">
+              <i class="far fa-circle fa-stack-2x"></i>
+              <i class="fab fa-twitter fa-stack-1x"></i>
+            </span>
+          </a>
+          <a class="social-media-link" href="#" aria-label="facebook-icon">
+            <span class="fa-stack fa-2x">
+              <i class="far fa-circle fa-stack-2x"></i>
+              <i class="fab fa-instagram fa-stack-1x"></i>
+            </span>
+          </a>
+        </div>
       </div>
-    </section>
-  </main>
-  <footer>
-    <p class="attribution">
-      Coded by <a href="https://www.linkedin.com/in/mateo-rinland-9b1a93bb/">Mateo Rinland</a>.
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    </p>
-  </footer>
-</body>
+    </main>
+    <footer>
+      <p class="attribution">
+        Coded by
+        <a
+          class="attribution-link"
+          href="https://www.linkedin.com/in/mateo-rinland-9b1a93bb/"
+          aria-label="Mateo Rinland's LinkedIn profile"
+          >Mateo Rinland</a
+        >. Challenge by
+        <a
+          class="attribution-link"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >.
+      </p>
+    </footer>
+  </body>
 </html>
