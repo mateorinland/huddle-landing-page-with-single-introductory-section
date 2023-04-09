@@ -1,9 +1,9 @@
 # Huddle landing page with single introductory section
 My solution for Frontend Mentor's huddle landing page with single introductory section challenge.
 
-Using HTML5, CSS3 and SASS.
+Using HTML5, CSS3 + SASS.
 * Semantic markup.
-* Accessibility (landmarks, alt text, aria labels).
+* Audited by Lighthouse and Accessibility Insights.
 * Flexbox and grid.
 * Mobile-first workflow.
 
