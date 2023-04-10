@@ -1,5 +1,5 @@
 # Huddle landing page with single introductory section
-My solution for Frontend Mentor's huddle landing page with single introductory section challenge.
+My solution for Frontend Mentor's Huddle landing page with single introductory section challenge.
 
 Using HTML5, CSS3 + SASS.
 * Semantic markup.
